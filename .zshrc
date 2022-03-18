@@ -242,4 +242,4 @@ ZSH_HIGHLIGHT_STYLES[default]='fg=#F8F8F2'
 ZSH_HIGHLIGHT_STYLES[cursor]='standout'
 
 
-source /home/dukes/panaz/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/dukes/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
