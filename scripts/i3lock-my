@@ -1,0 +1,58 @@
+#!/bin/sh
+
+TRANS='00000000'
+BLANK='#44475a'
+CLEAR='#44475a'
+DEFAULT='#d9eceff4'
+TEXT='#181920'
+WRONG='#181920'
+VERIFYING='#181920'
+
+i3lock \
+--insidever-color=$TEXT     \
+--ringver-color=$VERIFYING   \
+\
+--insidewrong-color=$TEXT   \
+--ringwrong-color=$VERIFYING     \
+\
+--inside-color=$TEXT        \
+--ring-color=$VERIFYING        \
+--line-color=$BLANK          \
+--separator-color=$CLEAR   \
+\
+--verif-color=$CLEAR          \
+--wrong-color=$CLEAR          \
+--time-color=$BLANK           \
+--date-color=$BLANK          \
+--greeter-color=$BLANK           \
+--layout-color=$TEXT         \
+--keyhl-color=$WRONG         \
+--bshl-color=$WRONG          \
+\
+--screen 1                   \
+--blur 6                     \
+--ring-width 2		\
+--clock                      \
+--indicator                  \
+--time-str="%H:%M"        \
+--date-str="%a, %d.%m.%Y"       \
+--greeter-text="Assume nothing , question everything."		\
+--verif-text="Verifying…"			\
+--wrong-text="Incorrect!"			\
+--noinput-text="No input"		\
+--lock-text="Locked..."			\
+--lockfailed-text="Wrong!"		\
+--greeter-pos="682:550"			\
+--greeter-font="iosevka"		\
+--time-font="iosevka"		\
+--date-font="iosevka"		\
+--verif-font="iosevka"		\
+--wrong-font="iosevka"		\
+--layout-font="iosevka"		\
+--greeter-size="21"		\
+--time-size="29"		\
+--date-size="15"		\
+--verif-size="19"		\
+--wrong-size="19"		\
+--layout-size="15"		\
+
