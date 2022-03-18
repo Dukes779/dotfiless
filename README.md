@@ -24,3 +24,11 @@ hello there! just a guy in love with arch and opensource.
 ![PSX_20220314_111958](https://user-images.githubusercontent.com/82059656/159052886-a82a4879-4655-4d7d-a6e1-a8b893d015c7.jpg)
 
 ![PSX_20220318_193557](https://user-images.githubusercontent.com/82059656/159054642-a7fb9199-e017-4bff-90c6-58e60efefeb1.jpg)
+
+# Dependencies 
+
+* **pywal**
+* **i3lock-color**
+* **rofi**
+
+For more configurations on dracula visit https://draculatheme.com. Enjoy!
