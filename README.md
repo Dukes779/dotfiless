@@ -30,5 +30,6 @@ hello there! just a guy in love with arch and opensource.
 * **pywal**
 * **i3lock-color**
 * **rofi**
+* **iosevka**
 
 For more configurations on dracula visit https://draculatheme.com. Enjoy!
