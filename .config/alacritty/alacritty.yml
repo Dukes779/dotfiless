@@ -1,4 +1,6 @@
-# Parts of this config were created by Derek Taylor, AKA DistroTube. The rest was created by Matt Weber aka The Linux Cast
+########################################
+############## ALACRITTY ###############
+########################################
 
 font:
   size: 11
