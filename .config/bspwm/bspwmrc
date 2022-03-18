@@ -44,18 +44,8 @@ bspc config presel_feedback_color        "#44475a"
 ########################   Autostart   ###################
 ##########################################################
 
-# Set display from arandr saved script
-#sh ~/.screenlayout/monitor.sh &
-
-# wallpaper 
-nitrogen --restore &
-
-# Bar
-#~/.config/polybar/launch.sh &
-# $HOME/.config/polybar/launch.sh --cuts &
-#pkill yabar; ~/.config/yabar/yabar-setup.sh; yabar -c /tmp/yabar.conf
 polybar example &
-~/panaz/nyowan &
+~/chubbs &
 
 # Notifications
 /usr/bin/dunst &
@@ -63,20 +53,5 @@ polybar example &
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-# Dex
-#dex -a -s /etc/xdg/autostart/:~/.config/autostart/ &  
-
-# Picom
-#picom -CGb &
-#picom &
-
 # Network Applet
 nm-applet --indicator &
-
-# Cursor
-#xsetroot -cursor_name left_ptr &
-
-# Low battery notifier
-#~/.config/bspwm/scripts/low_bat_notifier.sh &
-
-
