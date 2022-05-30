@@ -1,6 +1,6 @@
 # Dotfiles
 
-hello there! just a guy in love with arch and opensource.
+hello there! just a guy in love with linux and opensource.
 
 # System information 
 
